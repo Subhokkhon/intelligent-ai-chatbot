@@ -1,0 +1,100 @@
+{
+    "intents": [
+      {
+        "tag": "greetings",
+        "patterns": ["hello", "hi", "good day", "hey", "greetings", "what's up", "how's it going?", "how are you?"],
+        "responses": ["Hello!", "Hey!", "Hi, how can I help you?", "Greetings! What can I do for you?", "Hi, how's everything?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["bye", "see you later", "goodbye", "talk to you later", "I'm leaving", "catch you later"],
+        "responses": ["Goodbye!", "See you soon!", "Take care!", "Have a nice day!", "Bye! Come back soon."]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["thanks", "thank you", "appreciate it", "much obliged", "thanks a lot", "I'm grateful"],
+        "responses": ["You're welcome!", "No problem!", "Happy to help!", "Anytime!", "My pleasure!"]
+      },
+      {
+        "tag": "age",
+        "patterns": ["how old are you?", "what's your age?", "age?", "how long have you existed?", "when were you created?"],
+        "responses": ["I don't age like humans, but I've been here to help for quite some time!", "I'm ageless.", "I don't have a set age."]
+      },
+      {
+        "tag": "name",
+        "patterns": ["what's your name?", "who are you?", "what should I call you?", "do you have a name?"],
+        "responses": ["I'm your friendly assistant!", "You can call me AI Bot!", "I'm here to assist you, no name needed!", "My name is whatever you want it to be."]
+      },
+      {
+        "tag": "weather",
+        "patterns": ["what's the weather like?", "is it sunny?", "weather forecast", "how's the weather?", "do I need an umbrella today?"],
+        "responses": ["I can't check the weather right now, but you can use a weather app!", "It's always sunny in the digital world!", "Not sure, but checking the forecast would help!"]
+      },
+      {
+        "tag": "jokes",
+        "patterns": ["tell me a joke", "make me laugh", "got any jokes?", "I want to hear a joke", "say something funny"],
+        "responses": ["Why don't scientists trust atoms? Because they make up everything!", "Why did the scarecrow win an award? He was outstanding in his field!", "I'm on a seafood diet. I see food and I eat it!"]
+      },
+      {
+        "tag": "help",
+        "patterns": ["I need help", "can you help me?", "assist me", "I need assistance", "can you guide me?"],
+        "responses": ["Sure, what do you need help with?", "I'm here to assist you!", "How can I be of service today?", "Let me know what you're stuck with!"]
+      },
+      {
+        "tag": "hours",
+        "patterns": ["what hours are you open?", "are you available 24/7?", "when are you active?", "what's your schedule?"],
+        "responses": ["I'm here 24/7!", "I'm always available!", "You can reach me any time of the day!", "I don't have working hours; I'm always on!"]
+      },
+      {
+        "tag": "food",
+        "patterns": ["I'm hungry", "what should I eat?", "suggest me food", "what's for dinner?", "recommend some food"],
+        "responses": ["How about trying some pizza?", "Tacos are always a good option!", "Maybe a nice salad?", "You could try some pasta or a burger!"]
+      },
+      {
+        "tag": "sports",
+        "patterns": ["who won the game?", "sports news", "did the team win?", "what's the score?", "give me sports updates"],
+        "responses": ["I'm not sure about the latest scores, but you can check your favorite sports app!", "Can't fetch live scores, but I'm sure it was an exciting game!"]
+      },
+      {
+        "tag": "favorite",
+        "patterns": ["what's your favorite color?", "what's your favorite food?", "do you have a favorite?", "what do you like the most?"],
+        "responses": ["I like all colors equally!", "I don't eat, but if I could, I'd love pizza!", "I enjoy helping you, that's my favorite thing to do!"]
+      },
+      {
+        "tag": "movies",
+        "patterns": ["suggest me a movie", "what's a good movie?", "I want to watch something", "recommend a movie", "any movie suggestions?"],
+        "responses": ["You could watch 'Inception', it's a mind-bender!", "How about 'The Dark Knight'? It's a classic!", "Maybe try a comedy like 'Superbad'!"]
+      },
+      {
+        "tag": "news",
+        "patterns": ["what's the news today?", "give me news", "what's happening in the world?", "any headlines?", "update me on current events"],
+        "responses": ["I can't provide real-time news, but you can check a news app!", "The world is always buzzing; try visiting a news website!"]
+      },
+      {
+        "tag": "date_time",
+        "patterns": ["what's the time?", "current time", "what time is it?", "tell me the time", "give me the current time"],
+        "responses": ["I can't check the time right now, but look at your phone or watch!", "Time flies! It's always a good moment to do something fun!", "The time is always right to start something new!"]
+      },
+      {
+        "tag": "compliments",
+        "patterns": ["you're smart", "you are awesome", "great job", "well done", "I like you"],
+        "responses": ["Thank you!", "You're too kind!", "I appreciate that!", "Glad I could help!", "Thanks, that means a lot!"]
+      },
+      {
+        "tag": "music",
+        "patterns": ["suggest me a song", "play music", "what's a good song?", "recommend some music", "I want to listen to something"],
+        "responses": ["How about listening to 'Bohemian Rhapsody' by Queen?", "You could try 'Shape of You' by Ed Sheeran!", "Maybe 'Blinding Lights' by The Weeknd?"]
+      },
+      {
+        "tag": "health",
+        "patterns": ["I'm not feeling well", "I feel sick", "what should I do if I'm ill?", "health tips", "I need medical advice"],
+        "responses": ["I'm not a doctor, but if you're feeling unwell, it's best to consult a healthcare professional!", "Make sure to rest and stay hydrated. If symptoms persist, contact a doctor."]
+      },
+      {
+        "tag": "hobbies",
+        "patterns": ["what are your hobbies?", "what do you do for fun?", "what do you enjoy?", "do you have any hobbies?"],
+        "responses": ["I enjoy learning new things and helping you!", "My hobby is making your life easier!", "I like staying updated with the latest tech trends!"]
+      }
+    ]
+  }
+  
