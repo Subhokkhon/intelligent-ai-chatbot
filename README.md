@@ -22,5 +22,5 @@ python -m venv venv for Windows
 Activate the virtual environment
 .\venv\Scripts\activate
 Run nltk_downloader.py
-Then run training,py
-Run chatbot,py
+Then run training.py
+Run chatbot.py
